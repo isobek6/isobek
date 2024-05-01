@@ -1,6 +1,7 @@
 const App = () => {
   return (
     <div className="max-w-[1280px] m-auto px-3">
+      <h1>hello Benxur</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
         <p className="bg-red-500 h-[200px]">item-1</p>
         <p className="bg-green-500 h-[200px]">item-2</p>
