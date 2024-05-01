@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.product-card {
+  transition: all 0.5s;
+}
+.product-card:hover {
+  scale: 1.035;
+}
+
+.carousel-img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  max-height: 600px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: green;
+}
+.slide {
+  position: relative;
+}
+.carousel-inner {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: white;
+}
+.carousel-inner p {
+  max-width: 500px;
+}
